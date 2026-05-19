@@ -1,0 +1,21 @@
+### Obtener todas las tareas
+GET http://localhost:3000/tareas
+
+### Agregar una nueva tarea
+POST http://localhost:3000/tareas
+Content-Type: application/json
+
+{
+  "texto": "Comprar café para seguir programando"
+}
+
+### Actualizar la tarea con ID 2
+PUT http://localhost:3000/tareas/2
+Content-Type: application/json
+
+{
+  "completada": true
+}
+
+### Eliminar la tarea con ID 1
+DELETE http://localhost:3000/tareas/1

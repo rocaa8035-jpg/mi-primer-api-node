@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "texto": "Aprender lo básico de Node.js",
+    "completada": true
+  },
+  {
+    "id": 2,
+    "texto": "Crear mi primera API",
+    "completada": true
+  }
+]
